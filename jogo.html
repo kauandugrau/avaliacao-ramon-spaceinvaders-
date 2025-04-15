@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Space Invaders</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column; /* Adiciona a direção vertical */
+            height: 100vh;
+            margin: 0;
+        }
+        canvas {
+            background-image: url(star-wars-space-background-asznvoii5totrvpj.jpg);
+            margin-top: 100px;
+            background-size: cover;
+        }
+        #reiniciarBtn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 20px;
+            background-color: black;
+            color: rgb(255, 255, 255);
+            border: none;
+            cursor: pointer;
+        }
+        #reiniciarBtn:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="JogoCanvas" width="800" height="400"></canvas>
+    <button id="reiniciarBtn">Reiniciar Jogo</button>
+    <script src="base.js"></script>
+</body>
+</html>
