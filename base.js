@@ -202,7 +202,7 @@ document.addEventListener('keydown', (e) => {
     if (e.code === 'Space' && !jogo.gameOver) jogo.tiros.push(new Tiro(jogo.nave.x + jogo.nave.largura / 2 - 2.5, jogo.nave.y));
 });
 
-// Função para reiniciar o jogo
+
 document.getElementById('reiniciarBtn').addEventListener('click', () => {
-    jogo.iniciar(); // Reinicia o jogo
+    jogo.iniciar(); 
 });
